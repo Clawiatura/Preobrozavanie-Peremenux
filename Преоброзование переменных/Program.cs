@@ -11,7 +11,8 @@ Type l = x.GetType();
 Type z = n.GetType();
 
 
-Console.WriteLine($"{n} {с} {x} {k} {l} {z}");
+Console.WriteLine($" {n} {с} {x} {k} {l} {z}");
+
 
 
 
