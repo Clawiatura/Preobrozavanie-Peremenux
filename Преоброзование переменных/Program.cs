@@ -1,10 +1,20 @@
-﻿string b = "28";
-byte c = byte.Parse(b);
-nint d = (nint)c;
-int f = (int)d;
-long l = (long)f;
-double z = (double)l;
-Console.WriteLine($"{b} {c} {d} {f} {l} {z}");
+﻿Console.Write("Введите число n:");
+int n = int.Parse(Console.ReadLine());
+Console.Write("Введите 2-ое число с:");
+double с = double.Parse(Console.ReadLine());
+
+string x = n.ToString();
+string k = с.ToString();
+
+
+Type l = x.GetType();
+Type z = n.GetType();
+
+
+Console.WriteLine($"{n} {с} {x} {k} {l} {z}");
+
+
+
 
 
 
